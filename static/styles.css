@@ -1,0 +1,22 @@
+body, html {
+    margin: 0;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+}
+
+#app {
+    text-align: center;
+}
+
+#images img {
+    max-width: 500px;
+    max-height: 500px;
+    margin: 10px;
+}

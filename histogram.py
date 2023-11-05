@@ -135,5 +135,7 @@ def compute_single_channel_histograms(img, bins=256, range=(0, 256)):
 if __name__ == "__main__":
     # If using - update image path!
     with open("imgs/IMG_3946.jpeg", "rb") as f:
+        # Call the histogram function to get a plot!
         histogram(f)
+        # Plot the result!
         plt.show()
